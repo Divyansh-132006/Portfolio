@@ -3,7 +3,8 @@ const texts = [
             "AI Enthusiast", 
             "Problem Solver",
             "Tech Explorer",
-            "Creative Coder"
+            "Creative Coder",
+            "Gen-AI Developer",
         ];
         let textIndex = 0;
         let charIndex = 0;
