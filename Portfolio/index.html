@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Divyansh's Insights</title>
     <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="icon" href="dpimage__1_-removebg-preview.png" type="image/jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
@@ -19,30 +20,43 @@
             display: none;
 
         }
-        
+
         .reveall {
-    transform-style: flat;
-    backface-visibility: hidden;
-    will-change: transform, opacity;
-}
-#home > div:not(.particles):not(.relative) {
-  z-index: 0;
-}
+            transform-style: flat;
+            backface-visibility: hidden;
+            will-change: transform, opacity;
+        }
 
-@keyframes bounce {
-  0%   { transform: translateY(0); }
-  25%  { transform: translateY(-10px); }
-  50%  { transform: translateY(0); }
-  75%  { transform: translateY(-5px); }
-  100% { transform: translateY(0); }
-}
+        #home>div:not(.particles):not(.relative) {
+            z-index: 0;
+        }
 
-#brand-name{
-  animation: bounce 5s ease-in-out;
-   animation-iteration-count: infinite;
-}
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
 
+            25% {
+                transform: translateY(-10px);
+            }
 
+            50% {
+                transform: translateY(0);
+            }
+
+            75% {
+                transform: translateY(-5px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        #brand-name {
+            animation: bounce 5s ease-in-out;
+            animation-iteration-count: infinite;
+        }
     </style>
 </head>
 
@@ -58,10 +72,10 @@
     <nav class="fixed top-0 w-full nav-blur bg-slate-900/90 text-white z-50 transition-all duration-300">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center py-4">
-                <a href="#home" class="flex items-center space-x-3">
-<img src="logo.png" alt="Codient Logo" class="h-10 w-10 rounded-full">
-  <span class="text-xl font-bold text-white">Divyansh's nsights</span>
-</a>
+                <a href="#" class="flex items-center space-x-2">
+                    <img src="dpimage.jpg" alt="Codient Logo" class="h-10 w-10 rounded-full">
+                    <span class="text-xl font-bold text-white">Divyansh's Insights</span>
+                </a>
 
                 <div class=" hidden md:flex space-x-8">
                     <a href="#home"
@@ -77,10 +91,7 @@
                     <a href="#contact"
                         class="text-gray-300 hover:text-blue-400 transition-all duration-300 hover:scale-110">Contact</a>
                 </div>
-                <button id="darkModeToggle"
-                    class="p-2 rounded-lg bg-gray-700 hover:bg-gray-600 transition-all duration-300 hover:scale-110 hover:rotate-180">
-                    <i class="fas fa-moon text-gray-300"></i>
-                </button>
+                
             </div>
         </div>
     </nav>
@@ -128,14 +139,14 @@
                         Contact Me
                     </a>
                     <a href=""
-                    class="btn-hover bg-green border-2 border-blue-400 hover:bg-blue-400 px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 magnetic">
-                   Active for Work
-                </a>
+                        class="btn-hover bg-green border-2 border-blue-400 hover:bg-blue-400 px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 magnetic">
+                        Active for Work
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-   
+
     <section id="about"
         class="border: 5px solid green h-196 py-20 bg-gradient-to-br from-slate-800 via-slate-900 to-blue-800 overflow-hidden">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -150,12 +161,12 @@
                 <div class="reveall fade-in">
                     <div
                         class="w-64 h-64 mx-auto bg-gradient-to-br from-blue-400 to-purple-600 rounded-full flex items-center justify-center text-white text-6xl glow-effect pulse-slow">
-                        <img src="fiverrlogo.jpg" alt="">
+                        <img src="divyanshimage (1).png" alt="">
                     </div>
                 </div>
 
                 <div class="reveall fade-in">
-                    
+
                     <h3 class="text-3xl font-semibold mb-4 text-gray-200">Hi, I'm Divyansh!</h3>
                     <p class="text-gray-400 mb-6 leading-relaxed">
                         a 2nd-year Computer Science student with a passion for full-stack development and AI
@@ -168,53 +179,58 @@
                         projects, or learning about the latest developments in artificial intelligence.
                     </p>
                     <p class="text-gray-400 mb-8 leading-relaxed">
-                        During learning period found or make platform which help to find client or help client to reach me. Above is the address to visit my platform 
+                        During learning period found or make platform which help to find client or help client to reach
+                        me. Above is the address to visit my platform
                     </p>
 
                     <h4 class="text-xl font-semibold mb-4 text-gray-300">Technical Skills</h4>
                     <div class="animation">
                         <div id="brand-name">
-                        <div class="grid grid-cols-4 md:grid-cols-6 gap-4">
-                          <div class="HTML5">  <div
-                                class="skill-icon text-center p-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all duration-300">
-                                <i class="fab fa-html5 text-2xl text-orange-500 mb-2"></i>
-                                <p class="text-xs font-medium text-white">HTML</p>
-                            </div></div>
-                            <div
-                                class="skill-icon text-center p-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all duration-300">
-                                <i class="fab fa-css3-alt text-2xl text-blue-500 mb-2"></i>
-                                <p class="text-xs font-medium text-white">CSS</p>
-                            </div>
-                            <div
-                                class="skill-icon text-center p-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all duration-300">
-                                <i class="fab fa-js-square text-2xl text-yellow-400 mb-2"></i>
-                                <p class="text-xs font-medium text-white">JavaScript</p>
-                            </div>
-                            <div
-                                class="skill-icon text-center p-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all duration-300">
-                                <i class="fab fa-java text-2xl text-yellow-400 mb-2"></i>
-                                <p class="text-xs font-medium text-white">Java</p>
-                            </div>
-                            <div
-                                class="skill-icon text-center p-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all duration-300">
-                                <i class="fab fa-react text-2xl text-blue-400 mb-2"></i>
-                                <p class="text-xs font-medium text-white">React</p>
-                            </div>
-                            <div
-                                class="skill-icon text-center p-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all duration-300">
-                                <i class="fab fa-node-js text-2xl text-green-500 mb-2"></i>
-                                <p class="text-xs font-medium text-white">Node.js</p>
-                            </div>
-                            <div class="skill-icon text-center p-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all duration-300">
-                                <i class="fas fa-database text-2xl text-green-600 mb-2"></i>
-                                <p class="text-xs font-medium text-white">MongoDB</p>
-                            </div>
-                            <div class="skill-icon text-center p-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all duration-300">
-                                <i class="fas fa-database text-2xl text-green-600 mb-2"></i>
-                                <p class="text-xs font-medium text-white">MySQL</p>
+                            <div class="grid grid-cols-4 md:grid-cols-6 gap-4">
+                                <div class="HTML5">
+                                    <div
+                                        class="skill-icon text-center p-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all duration-300">
+                                        <i class="fab fa-html5 text-2xl text-orange-500 mb-2"></i>
+                                        <p class="text-xs font-medium text-white">HTML</p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="skill-icon text-center p-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all duration-300">
+                                    <i class="fab fa-css3-alt text-2xl text-blue-500 mb-2"></i>
+                                    <p class="text-xs font-medium text-white">CSS</p>
+                                </div>
+                                <div
+                                    class="skill-icon text-center p-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all duration-300">
+                                    <i class="fab fa-js-square text-2xl text-yellow-400 mb-2"></i>
+                                    <p class="text-xs font-medium text-white">JavaScript</p>
+                                </div>
+                                <div
+                                    class="skill-icon text-center p-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all duration-300">
+                                    <i class="fab fa-java text-2xl text-yellow-400 mb-2"></i>
+                                    <p class="text-xs font-medium text-white">Java</p>
+                                </div>
+                                <div
+                                    class="skill-icon text-center p-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all duration-300">
+                                    <i class="fab fa-react text-2xl text-blue-400 mb-2"></i>
+                                    <p class="text-xs font-medium text-white">React</p>
+                                </div>
+                                <div
+                                    class="skill-icon text-center p-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all duration-300">
+                                    <i class="fab fa-node-js text-2xl text-green-500 mb-2"></i>
+                                    <p class="text-xs font-medium text-white">Node.js</p>
+                                </div>
+                                <div
+                                    class="skill-icon text-center p-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all duration-300">
+                                    <i class="fas fa-database text-2xl text-green-600 mb-2"></i>
+                                    <p class="text-xs font-medium text-white">MongoDB</p>
+                                </div>
+                                <div
+                                    class="skill-icon text-center p-3 bg-gray-700 rounded-lg hover:bg-gray-600 transition-all duration-300">
+                                    <i class="fas fa-database text-2xl text-green-600 mb-2"></i>
+                                    <p class="text-xs font-medium text-white">MySQL</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -222,7 +238,7 @@
     </section>
 
 
-   
+
     <section id="projects" class="py-20 bg-gradient-to-br from-slate-800 via-slate-900 to-blue-800 overflow-hidden">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 reveal">
@@ -263,7 +279,8 @@
                 </div>
 
 
-                <div class="project-card bg-gradient-to-br from-slate-800 via-slate-900 to-blue-800 overflow-hidden rounded-xl shadow-2xl overflow-hidden reveal glow-effect">
+                <div
+                    class="project-card bg-gradient-to-br from-slate-800 via-slate-900 to-blue-800 overflow-hidden rounded-xl shadow-2xl overflow-hidden reveal glow-effect">
                     <div class="h-48 bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center">
                         <i class="fas fa-robot text-6xl text-white float"></i>
                     </div>
@@ -291,7 +308,8 @@
                 </div>
 
 
-                <div class="project-card bg-gradient-to-br from-slate-800 via-slate-900 to-blue-800 overflow-hidden rounded-xl shadow-2xl overflow-hidden reveal glow-effect">
+                <div
+                    class="project-card bg-gradient-to-br from-slate-800 via-slate-900 to-blue-800 overflow-hidden rounded-xl shadow-2xl overflow-hidden reveal glow-effect">
                     <div class="h-48 bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center">
                         <i class="fas fa-credit-card text-6xl text-white float"></i>
                     </div>
@@ -326,7 +344,7 @@
             <div class="text-center mb-16 reveal">
                 <h2 class="text-5xl font-bold text-white mb-4 gradient-text">Client Delivered Work</h2>
                 <p class="text-xl text-gray-300 max-w-2xl mx-auto">
-                    As a Freelancer worker - I have delivered  some project to my client as per their demand and request
+                    As a Freelancer worker - I have delivered some project to my client as per their demand and request
                 </p>
             </div>
 
@@ -339,12 +357,15 @@
                     <div class="p-6">
                         <h3 class="text-xl font-semibold mb-2 text-white">Live-Chat-Application</h3>
                         <p class="text-gray-300 mb-4 text-sm">
-                           A Full Flaged website to my local city Bussniess Man for his Bussiness which have different cart and it mainly fully functional. By this Project I have learn deep insights of React.js make custom hooks and push to npm which other users also can use later. 
+                            A Full Flaged website to my local city Bussniess Man for his Bussiness which have different
+                            cart and it mainly fully functional. By this Project I have learn deep insights of React.js
+                            make custom hooks and push to npm which other users also can use later.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
                             <span class="px-3 py-1 bg-blue-900 text-blue-300 rounded-full text-xs">React</span>
                             <span class="px-3 py-1 bg-green-900 text-green-300 rounded-full text-xs">Tailwind</span>
-                            <span class="px-3 py-1 bg-orange-900 text-orange-300 rounded-full text-xs">Mail.JS/GSAP</span>
+                            <span
+                                class="px-3 py-1 bg-orange-900 text-orange-300 rounded-full text-xs">Mail.JS/GSAP</span>
                         </div>
                         <div class="flex gap-3">
                             <a href="https://krishnagroups.netlify.app/"
@@ -356,14 +377,17 @@
                 </div>
 
 
-                <div class="project-card bg-gradient-to-br from-slate-800 via-slate-900 to-blue-800 overflow-hidden rounded-xl shadow-2xl overflow-hidden reveal glow-effect">
+                <div
+                    class="project-card bg-gradient-to-br from-slate-800 via-slate-900 to-blue-800 overflow-hidden rounded-xl shadow-2xl overflow-hidden reveal glow-effect">
                     <div class="h-48 bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center">
                         <i class="fas fa-robot text-6xl text-white float"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-semibold mb-2 text-white">Quiz Application</h3>
                         <p class="text-gray-300 mb-4 text-sm">
-                            A Quiz Platform make with Java, Spring-Boot and Java Swing. Mainly this Project make with the help of AI and during this i learn the proper prompt writing to give instructions to the AI and most important learn how to manage bugs and debug the code.
+                            A Quiz Platform make with Java, Spring-Boot and Java Swing. Mainly this Project make with
+                            the help of AI and during this i learn the proper prompt writing to give instructions to the
+                            AI and most important learn how to manage bugs and debug the code.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
                             <span class="px-3 py-1 bg-blue-900 text-blue-300 rounded-full text-xs">Java</span>
@@ -371,7 +395,7 @@
                             <span class="px-3 py-1 bg-red-900 text-red-300 rounded-full text-xs">AI</span>
                         </div>
                         <div class="flex gap-3">
-                           
+
                             <a href="https://github.com/Divyansh-132006/Quiz-Application-by-Team-Byte-Us"
                                 class="flex-1 border border-gray-600 hover:bg-gray-700 text-gray-300 text-center py-2 rounded-lg transition-all duration-300 hover:scale-105 btn-hover">
                                 GitHub
@@ -440,7 +464,8 @@
                     <div
                         class="bg-gradient-to-r from-blue-900 to-purple-900 border border-blue-600 rounded-lg p-6 shadow-lg">
                         <h3 class="text-lg font-semibold text-blue-300 mb-2">Currently Learning</h3>
-                        <p class="text-blue-200">Advanced React patterns and mastering good hand Data Structure on different Algos using Jav</p>
+                        <p class="text-blue-200">Advanced React patterns and mastering good hand Data Structure on
+                            different Algos using Jav</p>
                     </div>
                 </div>
             </div>
@@ -563,44 +588,44 @@
                                 @Codient
                             </a>
                         </div>
-                           
-                        </div>
+
                     </div>
                 </div>
-
-                <div class="reveal">
-                    <form id="contactForm" class="space-y-6">
-                        <div class="group">
-                            <label for="name"
-                                class="block text-sm font-medium text-gray-300 mb-2 group-focus-within:text-blue-400 transition-colors">Name</label>
-                            <input type="text" id="name" name="name" required placeholder="Your Name"
-                                class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-white placeholder-gray-400 hover:border-gray-500">
-                        </div>
-                        <div class="group">
-                            <label for="email"
-                                class="block text-sm font-medium text-gray-300 mb-2 group-focus-within:text-blue-400 transition-colors">Email</label>
-                            <input type="email" id="email" name="email" required placeholder="Enter your email"
-                                class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-white placeholder-gray-400 hover:border-gray-500">
-                        </div>
-                        <div class="group">
-                            <label for="message"
-                                class="block text-sm font-medium text-gray-300 mb-2 group-focus-within:text-blue-400 transition-colors">Message</label>
-                            <textarea id="message" name="message" rows="4" required
-                                placeholder="Write your message here"
-                                class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-white placeholder-gray-400 hover:border-gray-500 resize-none"></textarea>
-                        </div>
-                        <button type="submit"
-                            class="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 hover:scale-105 btn-hover magnetic">
-                            <span class="loading-dots">Send Message</span>
-                        </button>
-                    </form>
-                </div>
             </div>
+
+            <div class="reveal">
+                <form id="contactForm" class="space-y-6">
+                    <div class="group">
+                        <label for="name"
+                            class="block text-sm font-medium text-gray-300 mb-2 group-focus-within:text-blue-400 transition-colors">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name"
+                            class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-white placeholder-gray-400 hover:border-gray-500">
+                    </div>
+                    <div class="group">
+                        <label for="email"
+                            class="block text-sm font-medium text-gray-300 mb-2 group-focus-within:text-blue-400 transition-colors">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email"
+                            class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-white placeholder-gray-400 hover:border-gray-500">
+                    </div>
+                    <div class="group">
+                        <label for="message"
+                            class="block text-sm font-medium text-gray-300 mb-2 group-focus-within:text-blue-400 transition-colors">Message</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Write your message here"
+                            class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-white placeholder-gray-400 hover:border-gray-500 resize-none"></textarea>
+                    </div>
+                    <button type="submit"
+                        class="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 hover:scale-105 btn-hover magnetic">
+                        <span class="loading-dots">Send Message</span>
+                    </button>
+                </form>
+            </div>
+        </div>
         </div>
     </section>
 
 
-    <footer class="bg-gradient-to-br from-slate-800 via-slate-900 to-blue-800 overflow-hidden to-blue-900 text-white py-12">
+    <footer
+        class="bg-gradient-to-br from-slate-800 via-slate-900 to-blue-800 overflow-hidden to-blue-900 text-white py-12">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <h3 class="text-3xl font-bold mb-4 gradient-text">Divyansh Upadhyay</h3>
@@ -614,7 +639,7 @@
                         class="text-gray-400 hover:text-white transition-all duration-300 hover:scale-125 hover:rotate-12">
                         <i class="fab fa-github text-2xl"></i>
                     </a>
-                    
+
                 </div>
                 <div class="border-t border-gray-700 pt-8">
                     <p class="text-gray-400">&copy; 2025 Divyansh Upadhyay. All rights reserved.</p>
@@ -629,5 +654,3 @@
 </body>
 
 </html>
-
-
